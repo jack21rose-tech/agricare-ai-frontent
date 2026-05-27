@@ -117,12 +117,14 @@ function Hero() {
             >
               <Camera className="h-5 w-5" /> <span className="font-hindi">फसल स्कैन करें</span>
             </Link>
+            {/*
             <Link
               to="/dashboard"
               className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-base font-bold text-[oklch(0.2_0.08_265)] shadow-elegant ring-2 ring-white transition hover:bg-[oklch(0.97_0.02_85)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[oklch(0.55_0.16_150)]"
             >
               View Dashboard <ArrowRight className="h-4 w-4" />
             </Link>
+            */}
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-5 text-xs text-white/80">
