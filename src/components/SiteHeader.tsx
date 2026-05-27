@@ -35,7 +35,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <Link
-          to="/dashboard"
+          to="/scan"
           className="inline-flex items-center rounded-full bg-gradient-to-r from-[oklch(0.7_0.18_55)] to-[oklch(0.55_0.16_150)] px-5 py-2 text-sm font-semibold text-white shadow-elegant ring-1 ring-white/40 transition hover:opacity-95"
         >
           Open App
