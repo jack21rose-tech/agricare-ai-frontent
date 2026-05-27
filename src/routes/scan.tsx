@@ -215,6 +215,7 @@ function Scan() {
 
                       {/* AI ASSISTANT BUTTON */}
                       <div className="pt-4">
+                        {/*
                         <Link
                           to="/assistant"
                           className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-semibold text-background"
@@ -222,6 +223,7 @@ function Scan() {
                           Ask the AI assistant
                           <ArrowRight className="h-4 w-4" />
                         </Link>
+                        */}
 
                          <button
                           onClick={() => {
