@@ -1,8 +1,8 @@
 export function DemoBanner() {
   return (
-    <div className="fixed right-4 top-4 z-[9999]">
-      <div className="rounded-lg border border-yellow-300 bg-yellow-400 px-4 py-2 text-xs font-semibold text-black shadow-lg">
-        DEMO WEBSITE — Educational Use Only
+    <div className="fixed right-[-85px] top-[40px] z-[9999] rotate-45">
+      <div className="border-y border-white/20 bg-red-600 px-24 py-2 text-center text-xs font-bold uppercase tracking-[0.2em] text-white shadow-xl">
+        Demo Website
       </div>
     </div>
   );
