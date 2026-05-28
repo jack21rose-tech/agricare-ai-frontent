@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { DemoBanner } from "@/components/DemoBanner";
 import {
   Outlet,
   Link,
@@ -116,6 +117,7 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <DemoBanner />
       <Outlet />
     </QueryClientProvider>
   );
