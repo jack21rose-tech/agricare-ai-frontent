@@ -14,7 +14,6 @@ import { RainLayer } from "@/components/RainLayer";
 import { VoiceWave } from "@/components/VoiceWave";
 import { RippleButton } from "@/components/RippleButton";
 import { HighContrastToggle } from "@/components/HighContrastToggle";
-import { DemoBanner } from "@/components/DemoBanner";
 
 function TricolorDivider() {
   return <div role="separator" aria-hidden className="divider-tricolor" />;
@@ -35,7 +34,6 @@ export const Route = createFileRoute("/")({
 function Landing() {
   return (
     <div className="min-h-screen bg-background">
-      <DemoBanner />
       <SiteHeader />
       <Hero />
       <Marquee />
